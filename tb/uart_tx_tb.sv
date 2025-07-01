@@ -66,7 +66,7 @@ module uart_tx_tb;
 
         wait (busy == 0);
 
-        #1000;
+        #5000000;
         $finish;
     end
 
